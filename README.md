@@ -1,8 +1,3 @@
-# copilot-claude-setup-windows
-
-
-
-
 # 使用 Windows 系統以 GitHub Copilot 驅動 Claude Code
 
 ## 1. 概念釐清：我們究竟在做什麼？

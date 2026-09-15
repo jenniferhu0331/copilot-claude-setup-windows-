@@ -200,8 +200,5 @@ claude
 
 > *本教學由個人實作整理，並借助 AI 輔助編寫潤飾。所提之品牌與商標皆歸屬原公司所有。*
 
-```
-
-<FollowUp label="需要幫你把它轉成適合 GitHub 專案的 README 格式嗎？" query="請幫我把這份文件加上 GitHub 專案常見的標題橫幅、徽章 (Badges) 以及開源授權說明，讓我能直接當作一個新 GitHub 倉庫的 README.md 門面。"/>
 
 ```

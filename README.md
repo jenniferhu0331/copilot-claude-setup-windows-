@@ -161,7 +161,7 @@ http://localhost:4141/usage-viewer?endpoint=http://localhost:4141/usage
 
 
 3. 點擊頁面上的 **Refresh**。若在下方 **Request Events** 表格中看到剛才發送的訊息與模型名稱，代表設定 100% 成功！
-
+(上面也可以看到總共的用量！)
 ---
 
 ## 5. 日常使用的標準 SOP
@@ -182,7 +182,25 @@ claude
 
 ```
 
+## 💡 如何切換使用的 AI 模型？
 
+本專案預設使用 `gpt-5.6-sol[1m]`，如果你想嘗試其他模型（例如 `gpt-6-astra` 或其他支援的模型），可以隨時手動更改設定檔：
+
+1. 打開工作目錄下的設定檔：`C:\copilot_test\.claude\settings.json`。
+2. 找到 `"ANTHROPIC_MODEL"` 這一行，將後面的名稱修改為你想要的模型代號，例如：
+```json
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://localhost:4141",
+    "ANTHROPIC_AUTH_TOKEN": "dummy",
+    "ANTHROPIC_MODEL": "gpt-6-astra"
+  }
+}
+
+
+3.如果中途想要更改模型不想改檔案，也可以使用以下指令(直接在claude code輸入)：
+```
+ /model gpt-6-astra
 
 ---
 
@@ -192,6 +210,7 @@ claude
 * **Claude Code 官方文件**：[Anthropic Claude Code Overview](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
 
 > *本教學由個人實作整理，並借助 AI 輔助編寫潤飾。所提之品牌與商標皆歸屬原公司所有。*
+
 
 
 

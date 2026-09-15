@@ -32,13 +32,12 @@ Windows 預設會阻擋終端機執行自動化腳本，這會導致後續指令
 3. 複製並貼上以下指令後按下 Enter：
    ```powershell
    Set-ExecutionPolicy RemoteSigned -Scope LocalMachine
-
-```
+   ```
 
 4. 當畫面詢問是否變更時，輸入字母 `Y` 並按下 Enter。
 5. **關閉此管理員視窗**。
 
----
+
 
 ### 第二步：安裝 Claude Code 工具
 
@@ -52,7 +51,6 @@ npm install -g @anthropic-ai/claude-code
 
 *安裝過程約需 1～2 分鐘，請耐心等待直到終端機回到可輸入游標。*
 
----
 
 ### 第三步：連結並授權 GitHub Copilot 帳號
 

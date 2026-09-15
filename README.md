@@ -2,7 +2,7 @@
 
 
 
-```markdown
+
 # 🚀 零基礎指南：在 Windows 電腦上用 GitHub Copilot 驅動 Claude Code
 
 ## 1. 概念釐清：我們究竟在做什麼？

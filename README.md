@@ -3,7 +3,7 @@
 
 
 
-# 🚀 零基礎指南：在 Windows 電腦上用 GitHub Copilot 驅動 Claude Code
+# 使用 Windows 系統以 GitHub Copilot 驅動 Claude Code
 
 ## 1. 概念釐清：我們究竟在做什麼？
 
@@ -12,7 +12,7 @@
 * **我們為什麼需要本地網關（Copilot-API）？**  
   Claude Code 原本只能用官方付費的 API。我們透過一個開源的「中繼橋樑（網關）」，讓 Claude Code 可以借用你現有的 **GitHub Copilot 訂閱額度**來工作，無需額外購買 Anthropic API 點數。
 
----
+
 
 ## 2. 事前準備清單（Prerequisites）
 
@@ -24,7 +24,7 @@
 3. **安裝 Git**（版本控制工具，外掛安裝必備）：
    * 前往 [Git for Windows 官網](https://git-scm.com/download/win) 下載 64-bit 版本，一路按「Next」保持預設安裝。
 
----
+
 
 ## 3. 完整安裝與設定流程
 
